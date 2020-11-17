@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@400;700;800&display=swap');
+
+.number-field{
+    width:100%;
+    height:70px;
+    margin-bottom: 30px;
+    direction: rtl;
+   
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+-webkit-appearance: none;
+margin:0;
+}
+input[type=number]
+{
+    width:100%;
+    height:100%;
+    border:none;
+    margin-top: 50px;
+    font-size: 150px;
+    font-weight:400;
+    padding: 0px 24px 0px 0px;
+    font-family: 'Chathura', sans-serif;
+
+}
+input[type=number]:focus
+{
+    border:none;
+    outline:none;
+}
