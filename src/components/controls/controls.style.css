@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@700;800&family=Roboto&display=swap');
+.controls{
+    width:100%;
+    margin-top:60px;
+    height:60%;
+    display:flex;
+    flex-direction:column;
+    text-align: center;;
+
+}
+.row-one,.row-two,.row-three,.row-four,.row-five{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align:center;
+    font-size:32px;
+    margin-top:15px;
+}
+.plus,.minus,.multiply,.division,.equal,.plus-minus,.percent,.AC,
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.equal,.dot,.zero
+{
+    
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    font-size:32px;
+    font-family: 'Roboto', sans-serif;
+}
+.plus:hover,.minus:hover,.multiply:hover,.division:hover,.equal:hover,.plus-minus:hover,.percent:hover,.AC:hover,
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover,.seven:hover,.eight:hover,.nine:hover,.equal:hover,.dot:hover,.zero-container:hover{
+cursor:pointer;
+}
+.plus,.minus,.multiply,.division,.equal{
+    color:white;
+    background-color:#34509E;
+}
+.AC,.plus-minus,.percent{
+    background-color: #8490FF;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.equal,.dot,.zero
+{
+    background-color:#212638;
+    color:white;
+}
+.zero-container{
+   width:150px;
+   display:flex;
+   justify-content:space-between;
+   background-color:#212638;
+    color:white;
+    border-radius: 32px;
+}
+
+.equal,.dot{
+    
+}
